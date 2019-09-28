@@ -1,0 +1,249 @@
+html{
+    box-sizing: border-box;
+    width:1260px;
+    height:940px;
+    background-color: #EDF2C5;
+   
+}
+.body{
+    width:100%;
+    height:100%;
+    margin-top: 36px;
+    margin-bottom: 49px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*top container*/
+.top-container{
+    width: 940px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.header{
+    height: 62px;
+    width: 271px;
+    color:#778A50;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 44px;
+    font-family: Arial ;
+    font-weight: 900;
+   
+}
+.rt-area{
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+.rt-area .imgA{
+    padding-right: 10px;
+    width:25px;
+    height: 25px;
+    
+}
+.rt-area .imgB{
+    padding-right: 10px;
+    width:25px;
+    height: 25px;
+    border-right:1px solid #778A50;
+}
+.rt-area .boxA{
+    width:60px;
+    height:20px;
+    border:1px solid #778A50;
+    border-radius: 3px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color:#778A50;
+    margin-left:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: center;
+    padding-top: 5px;
+   
+}
+.rt-area .boxB{
+    width:50px;
+    height:20px;
+    border:1px solid #778A50;
+    border-radius: 3px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 14px;
+    color:#778A50;
+    margin-left:10px;
+    margin-bottom:0px;
+    margin-top:0px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*nav*/
+.nav{
+    width: 940px;
+    margin-bottom: 20px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+.nav-list{
+    margin-top:0px;
+    display: flex;
+    color:#EDF2C5;
+    background-color: #778A50;
+    height: 48px;
+    padding-left: 30px;
+    padding-right: 317px;
+    border-radius: 3px;
+
+}
+.nav-list-item{   
+    display:inline-block;
+    font-family:Arial ;
+    font-weight: 900;
+    font-size: 16px;
+    white-space:nowrap;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 60px;
+}
+
+/*main*/
+.article{
+    width:940px;
+    height: 448px;
+    margin-bottom: 30px;
+    margin-right: 160px;
+    margin-left: 160px;
+}
+
+/*bottom container*/
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 160px;
+    margin-left: 160px;
+    width: 940px;
+}
+.aside{
+    margin-bottom: 35px;
+    
+}
+.boxC{
+    width:415px;
+    height: 23px;
+    background-color: #778A50;
+    color: #EDF2C5;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+   
+    padding-top: 10px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-top:0px;
+    border-radius: 3px;
+}
+/*left side*/
+.side-img-area{
+    display: flex;
+    justify-content: space-between;
+}
+.side-img{
+    margin-top:0px;
+    
+    height: 140px;
+    margin-right: 12px;
+    margin-left: 0px;
+
+}
+.side-img2{
+    margin-top:0px;
+    
+    height: 140px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+/*right side*/
+.text-area{
+    display: flex;
+    box-sizing: border-box;
+    width:445px;
+    height: 140px;
+    font-family: Arial;
+    font-size: 12px;
+    flex-direction: column;
+    color:#7D7D7D;
+    background-color: #F7FBDA;
+    margin-top:15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.text-area .text1{
+   box-sizing: border-box;
+   width:414px;
+   line-height: 1.25;
+   border-bottom: 1px solid #7D7D7D;
+   padding-top:15px;
+   padding-bottom: 15px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+.text-area .text2{
+    display: block;
+    line-height: 1.55;
+    padding-top:15px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    white-space:nowrap;
+    
+}
+.text-area .text3{
+    line-height: 1.55;
+    padding-top:0px;
+    padding-bottom: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    width: 1260px;
+    height: 60px;
+    background-color: #778a50;
+    
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+
+}
+.footer p{
+    font-family: Arial;
+    font-size: 12px;
+    color: #edf2c5;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
